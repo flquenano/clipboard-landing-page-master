@@ -213,8 +213,37 @@ li:hover {
     background: url("./images/bg-header-desktop.png") top/100% no-repeat;
   }
 
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  .btn {
+    font-size: 1.25rem;
+  }
+
+  .about {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .about__content {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
   .about__text {
-    width: 600px;
+    text-align: center;
+    width: 70%;
   }
 
   .info-one {
@@ -224,7 +253,8 @@ li:hover {
     align-items: center;
   }
   .info-one__text {
-    width: 600px;
+    padding-top: 1rem;
+    width: 50%;
   }
 
   .computer {
